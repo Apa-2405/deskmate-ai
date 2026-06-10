@@ -11,3 +11,9 @@ for ticket in tickets:
         print(ticket + "->Ticket is of financial priority")
     else:
         print(ticket + "-> Support team")
+
+
+count =1
+while count<= 3:
+     print("Checking ticket number " + str(count))
+     count=count + 1
